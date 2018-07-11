@@ -1,0 +1,64 @@
+.blog-title{
+  font-family: "SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+  height: 150px;
+  background: #fff;
+  padding-top: 10px;
+  color: #0084ff;
+  border-bottom: 1px solid #ebebeb;
+}
+html, body{
+  background: #F6F6F6;
+}
+.text-center{
+  text-align: center;
+}
+.blog-nav{
+  height: 40px;
+  background: #fff;
+  color: #0084ff;
+  border-bottom: 1px solid #ebebeb;
+}
+.blog-list{
+  margin-top: 1rem;
+}
+.blog-item{
+  padding: 1rem;
+  background: #fff;
+  margin-bottom: 1rem;
+}
+.blog-right-list{
+  padding-left: 1rem;
+}
+.blog-content, .blog-right{
+  padding: 0;
+}
+.blog-link>a>i{
+  font-size: 1.5rem;
+}
+.blog-link>a{
+  margin-right:10px;
+}
+.blog-link>a:hover{
+  color: #0084ff;
+  text-decoration:none;
+}
+.blog-link>a:visited {text-decoration:none;}
+.blog-link>a:hover {text-decoration:none;}
+.blog-item-title{
+  font-size: 1rem;
+  border-bottom: 1px solid #ebebeb;
+  width: 100%;
+}
+
+.blog-content-footer{
+  text-align: right;
+  width: 100%;
+}
+.blog-content-footer>span{
+  margin-right: 10px;
+}
+.blog-footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
