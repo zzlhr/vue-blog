@@ -8,9 +8,9 @@
     <div class="blog-nav">
       <b-container>
         <b-nav>
-          <b-nav-item active>首页</b-nav-item>
-          <b-nav-item>文章</b-nav-item>
-          <b-nav-item>关于</b-nav-item>
+          <b-nav-item @click="jump('/')" active>首页</b-nav-item>
+          <b-nav-item @click="jump('/articles')">文章</b-nav-item>
+          <b-nav-item @click="jump('/about')">关于</b-nav-item>
         </b-nav>
       </b-container>
     </div>
@@ -65,8 +65,27 @@ html {
   margin-left: 15px;
 }
 
+.nav-item>.active{
+  background: rgba(0, 132, 255, 0.1);;
+  color: #0084ff;;
+}
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
 }
 </style>
+<script>
+  export default {
+    data(){
+      return{
+
+      }
+    },
+    methods:{
+      jump(url){
+        location.href=url;
+      }
+    }
+
+  }
+</script>
